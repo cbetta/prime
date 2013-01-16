@@ -28,9 +28,7 @@ Creates a a multiplication table of the first x primes.
 
 ## Tests
 
-```
-rspec spec
-```
+`rspec spec`
 
 Runs all Rspec tests.
 
