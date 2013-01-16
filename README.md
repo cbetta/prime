@@ -2,9 +2,12 @@
 
 Written for a code challenge.
 
-## Requirements
+## Get ready
 
-Ruby 1.9+
+* Requires Ruby 1.9+
+* `git clone git://github.com/cbetta/prime.git`
+* `rspec spec`
+* `ruby prime.rb X`, where X is the number of primes
 
 ## Usage
 
@@ -25,12 +28,6 @@ $ ruby prime.rb 10
 ```
 
 Creates a a multiplication table of the first x primes.
-
-## Tests
-
-`rspec spec`
-
-Runs all Rspec tests.
 
 ## License
 
