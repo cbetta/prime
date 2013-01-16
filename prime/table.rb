@@ -1,16 +1,14 @@
 class Prime
   class Table
-    attr_accessor :count
-
     def initialize count
       raise ArgumentError.new("Table size needs to be at least 2x2") unless count > 1
-      self.count = count
+      @count = count
     end
 
     def primes
       @primes ||= (2...Float::INFINITY).inject([]) do |results, i|
         results.push(i) if i.prime?
-        break results if results.length >= count
+        break results if results.length >= @count
         results
       end
     end
