@@ -36,3 +36,22 @@ describe Prime::Table do
   end
 
 end
+
+describe Integer do
+
+  describe "#prime?" do
+    it "should only be true if the number is a prime" do
+      expect(0).not_to be_prime
+      expect(1).not_to be_prime
+      expect(2).to be_prime
+      expect(3).to be_prime
+      expect(4).not_to be_prime
+      expect(5).to be_prime
+      expect(6).not_to be_prime
+      expect(7).to be_prime
+      expect(8).not_to be_prime
+      expect(9).not_to be_prime
+    end
+  end
+
+end
