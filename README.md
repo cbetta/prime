@@ -6,7 +6,8 @@ Written for a code challenge.
 
 * Requires Ruby 1.9+
 * `git clone git://github.com/cbetta/prime.git`
-* `rspec spec`
+* `bundle`
+* `rspec spec`, to see the specs pass
 * `ruby prime.rb X`, where X is the number of primes
 
 ## Usage
