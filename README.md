@@ -27,8 +27,6 @@ $ ruby prime.rb 10
  29 |	   58	   87	  145	  203	  319	  377	  493	  551	  667	  841
 ```
 
-Creates a a multiplication table of the first x primes.
-
 ## License
 
 See LICENSE
